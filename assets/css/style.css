@@ -1,5 +1,5 @@
 /* ==========================================
-   1. GAYA DASAR / DESKTOP (Jobsheet 02 Base)
+   1. GAYA DASAR / DESKTOP
    ========================================== */
 * {
     box-sizing: border-box;
@@ -21,6 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap; /* Wajib agar nav bisa turun di mode mobile */
 }
 
 header nav ul {
@@ -54,6 +55,11 @@ main section:nth-of-type(2) {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
+}
+
+.card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .card .number {
